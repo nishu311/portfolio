@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+        body{
+             width: 800px;
+     background: rgb(26, 188, 156);
+    background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+   background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+        }
+		
+	#about {
+    height: 100%;;
+    margin: 0;
+    padding: 0;
+}
+
+    
+    
+    
+}
+
+#my-image {
+    height: 20px;
+    width: 30px;
+    margin: auto;
+    margin-top: -3vh;
+
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+  
+    box-sizing: border-box;
+    border: 5px white solid;
+
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img { width: 100%; height: auto; }
+    }
+
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 18px;
+    margin: auto;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Section styling */
+
+section{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    color: black;
+}
+
+section:nth-child(2n) {
+    background-color: orange;
+    width: 1400px;
+}
+
+section:nth-child(2n + 1) {
+    
+
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.4rem;
+}
+.red{
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px green;
+    
+}
+
+	</style>
+	<title></title>
+</head>
+<body>
+	<section id="about">
+        <h1 class="red"> ABOUT ME</h1>
+            <div id="my-image">
+                <img src="nisha college photo.jpeg">
+            </div>
+
+            <div id="about-para">
+                <p>My name is nisha From Agra.<span class="text-highlight">strengh is pic a fast things</span>. Hobbies are learn new things and explore <span class="text-highlight">my goal is to get a job .</span></p>
+            </div>
+
+        </section>
+	<section id="education">
+
+        <h1 class="section-heading mb75px">
+            <span>
+                <i class="fas fa-graduation-cap"></i>
+            </span>
+            <span> Education </span>
+        </h1>
+
+        <div class="timeline">
+
+            <div class="timeline-box left ">
+                <div class="timeline-container">
+                    <div class="is">
+                        <img src="is.JPG">
+                    </div>
+                    <h3 class="experience-designation  m0 m-blue"> Bachelor Of Engineering</h3>
+                    <h4 class="experience-company-name "> Institute Of Engineering & Technology, Khandari Campus, Agra</h4>
+                    <h5 class="experience-duration m0"> 2020 - 2024 </h5>
+
+                    <!-- <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> -->
+                </div>
+            </div>
+            
+            <div class="timeline-box right ">
+                <div class="timeline-container">
+                    <div class="timeline-logo">
+                        <img  src="govind.JPG" width="300" height="300">
+                    </div>
+                    <h3 class="experience-designation  m0 m-blue"> Intermediate </h3>
+                    <h4 class="experience-company-name ">Govind Singh Inter college</h4>
+                    <h5 class="experience-duration m0"> 2017 - 2019 </h5>
+
+                    <!-- <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> -->
+                </div>
+            </div>
+
+            <div class="timeline-box left ">
+                <div class="timeline-container">
+                    <div class="timeline-logo">
+                        <img src="10.jpeg" width="300px" height="300px">
+                    </div>
+                    <h3 class="experience-designation  m0 m-blue"> High School </h3>
+                    <h4 class="experience-company-name "> Smt Gayatri  Devi Inter College </h4>
+                    <h5 class="experience-duration m0"> 2015 - 2017 </h5>
+
+</body>
+</html>
